@@ -60,7 +60,7 @@ def Solo():
         textFile.close()
         print(A + C)
         print(vuelta)
-
+cacatua
 h=0 #acá estoy buscando hacer un contador para aplicar el comando '\baar ""', que en el lilipond sirve para hacer un salto de compas
 i=0
 while i<3:
