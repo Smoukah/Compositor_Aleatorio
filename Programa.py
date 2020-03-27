@@ -82,8 +82,16 @@ print('\\version "2.20.0"  % necessary for upgrading to future LilyPond versions
 
 h = 0  # acá también estoy buscando hacer un contador para aplicar el comando '\bar ""', que en el lilipond sirve para hacer un salto de compas
 i = 0
-while i<9:
+notasPentagrama=[]
+while i<100:
     Solo()
+    notasPentagrama.append('spam')
+    if len(notasPentagrama)==15:
+        print('\\bar "" \n')
+        textFile = open('Solo.ly', 'a')
+        textFile.write('\\bar "" \n')
+        textFile.close()
+        notasPentagrama *= 0
     i+=1
 
 #    if h != 4:
@@ -95,5 +103,5 @@ while i<9:
 
 
 textFile = open('Solo.ly', 'a')
-textFile.write('}\n}\n}')
+textFile.write('\n}\n}\n}')
 textFile.close()
