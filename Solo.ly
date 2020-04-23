@@ -4,23 +4,22 @@
 	title = "Prueba Solo"
 	subtitle = "La batalla comienza"
 	
-
+}
 \score {
 \layout{}
 \midi{}
 \new Staff {
 \absolute
 \clef C
-\time 2/4
+\time 2/4 
+\tempo 4 = 60
 \cadenzaOn
 {
-r1.. cis,16 r2 ais'1. dis'64. cis,1 g'16.. fis'1 ais,1. gis,16.. f,32. gis,32.. dis1 dis8 d,16 \bar "" 
-fis64. g,1 r16. dis,1.. dis'32. cis8. b'1. e,32. r4 b'4 a'16.. cis2.. r2 dis64 f,4.. \bar "" 
-r32 b64.. b'4 c'64 cis'2. e,16. r8 gis'16.. r8.. r64. cis,1. a,32. dis'64.. r4. e1 \bar "" 
-dis'4 f'64 e'32 r16. e64.. e,8 e4. r16. gis'64 cis'4. g'1.. r32.. cis,8. r16.. r1.. \bar "" 
-r1. cis16 r4 c,32.. a64 r8. gis'16.. cis1. r1 c'8.. gis,4. r32 fis,4. r4. c1. \bar "" 
-r4.. e,16 r1.. cis1. r16.. dis'64. gis'32.. f'16 r8.. b'1. r64 a16.. r32. b,4.. r16.. \bar "" 
-e,16 fis'2. r2.. c,64 ais'2 e'16.. ais,4 cis64 a'4 fis1. 
+ais8.. gis,16. r16 r64 e'16 r32 gis,4. f,4 d'4. fis,64. d,64. d'8.. f64. b,32. e,1. \bar "" 
+r1. r32 cis1. a,64. e8 cis4.. f2 r64. f'1 r16. r32.. g,4 d'64 a1. r8 \bar "" 
+r4.. c2. gis32.. gis'4.. b'32 e'64.. f'1.. ais2 f,1 fis'64. e'16. r8.. gis32.. d64.. b'1. \bar "" 
+d1. gis'32. ais,16. r1 fis2 a,4.. gis'16.. a4 c,4.. gis'8.. c,8 b,2 c'64. dis64. f'1.. \bar "" 
+r64.. r8. gis'32. f64 r1. 
 }
 }
 }
